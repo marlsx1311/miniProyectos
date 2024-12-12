@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    display: flex;
+    justify-content: end;
+    margin: 15px 15px 15px 0;
+    gap: 20px;
+    align-items: center;
+    padding-right: 10px;
+    
+
+
+}
+.menu{
+    color: white;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+.menu span{
+    margin-left: 13px;
+}
+
+.cuadrado{
+    width: 25px;
+    
+}
+
+.circulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    border-radius: 100px;
+    width: 34px;
+    height: 34px;
+    font-family: arial, sans-serif;
+}
+
+.circulo span{
+    color: white;
+    font-size: 18px;
+}
+.logo-google{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: flex-end;
+}
+.logo{
+    background: rgba(31, 31, 31, 1.00);
+    border-radius: 20px;
+}
+.logo img{
+    width: 320px;
+    padding: 15px;
+}
+.compartir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(31, 31, 31, 1.00);
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    
+}
+.compartir span{
+    mask-image: url(./img/share_unfilled.svg);
+    vertical-align: bottom;
+    
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+
+.buscador-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 700px;
+    height: 48px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 20px;
+}
+.buscador-all input{
+    border: none;
+    width: 500px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+.buscador-all div{
+    display: flex;
+    gap: 20px;
+}
+#camera{
+    width: 24px;
+}
+#search{
+    width: 20px;
+    opacity: 0.6;
+}
+
+.acceso{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+.acceso div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 104px;
+    height: 106px;
+}
+.acceso span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #544600;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.acceso p{
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+
